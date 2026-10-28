@@ -1,0 +1,14 @@
+{
+  "name": "almost-reader",
+  "version": "1.0.0",
+  "description": "Static page-turning reader for Almost by M. Farouk, built from the manuscript PDF.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build-reader.mjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "4.10.38",
+    "sharp": "0.33.5"
+  }
+}
